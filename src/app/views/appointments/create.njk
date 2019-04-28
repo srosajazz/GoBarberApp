@@ -2,50 +2,35 @@
 
 {% block body %}
   <div class="content">
-  <strong>Booking an appointment</strong>
+    <strong>Booking an appointment</strong>
 
-  <div class="provider">
-    <div>
-      <img src="/files/{{ provider.avatar }}" />
-      <strong>{{ provider.name }}</strong>
+    <div class="provider">
+      <div>
+        <img src="/files/{{ provider.avatar }}" />
+        <strong>{{ provider.name }}</strong>
+      </div>
     </div>
-  </div>
+
     <form action="/app/appointments/new/{{ provider.id }}" method="post">
-      <input type="text" class="flatpickr" placeholder="Please choice one date"</input>
+      <input type="text" class="flatpickr" placeholder="Choose date">
 
-      {# Book times #}
+      <div id="hours"></div>
 
-    <div id="hours">
-      <label>
-        <input type="radio" />
-        12:00
-        </label>
-      <label>
-        <input type="radio" />
-        13:00
-        </label>
-      </label>
-      <label>
-        <input type="radio" />
-        14:00
-        </label>
-      <label>
-        <input type="radio" />
-        15:00
-        </label>
- </label>
- </div>
- <button type="submit">Booked</button>
-</div>
-
+      <button type="submit">Book</button>
     </form>
+  </div>
 
-{# book dates #}
-<script type="text/javascript">
-  flatpickr('.flatpickr', {
-    minDate: new Date(),
-    dateFormat: 'm/d/Y'
-  })
-</script>
-
+  <script type="text/javascript">
+    flatpickr('.flatpickr', {
+      minDate: new Date(),
+      dateFormat: 'd/m/Y',
+      onChange: function (date) {
+        fetch(`/app/available/{{ provider.id }}?date=${date[0].getTime()}`).then(function (response) {
+          response.text().then(function (html) {
+            document.getElementById('hours').innerHTML = html
+          })
+        })
+      }
+    })
+  </script>
 {% endblock %}

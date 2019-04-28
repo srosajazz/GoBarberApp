@@ -1,26 +1,29 @@
 {% extends "_layouts/auth.njk" %}
 
 {% block body %}
-<form action="/signup" method="post" enctype="multipart/form-data">
-   {% include "_partials/flash.njk" %}
+  <form action="/signup" method="post" enctype="multipart/form-data">
+    {% include "_partials/flash.njk" %}
 
-<label for="avatar">
-  <img src="/images/avatar.svg" height="24" />
-</label>
+    <label for="avatar">
+      <img src="/images/avatar.svg" height="24" />
+    </label>
 
-  <input id="avatar" name="avatar" type="file" />
+    <input id="avatar" name="avatar" type="file" />
 
-  <input type="text" name="name" placeholder="Full Name">
-  <input type="email" name="email" placeholder="email">
-  <input type="password" name="password" placeholder="Password">
+    <input type="text" name="name" placeholder="Full Name">
+    <input type="email" name="email" placeholder="Email address">
+    <input type="password" name="password" placeholder="Something really secret">
 
- <label for="provider">
+    <label for="provider">
       <input type="checkbox" id="provider" name="provider" value="1" />
       I am Barber
-</label>
-    <button type="submit">Create account</button>
-    <a href="/">Account alredy exist</a>
+    </label>
+
+    <button type="submit">Enter</button>
+
+    <a href="/">Already have account</a>
   </form>
+
   <script type="text/javascript">
     var avatarInput = document.getElementById('avatar')
     var img = document.querySelector('label[for=avatar] img')
