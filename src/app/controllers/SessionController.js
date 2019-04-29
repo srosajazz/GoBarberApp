@@ -16,7 +16,7 @@ class SessionController {
     }
 
     if (!(await user.checkPassword(password))) {
-      req.flash('error', 'invalid password')
+      req.flash('error', 'Wrong Password')
       return res.redirect('/')
     }
 
@@ -32,4 +32,5 @@ class SessionController {
     })
   }
 }
+
 module.exports = new SessionController()
