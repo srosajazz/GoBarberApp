@@ -1,12 +1,9 @@
    <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/logo.svg" height = "150"/>
    
-    <img src="https://s3.amazonaws.com/barberimages2/barber/NodeJS.jpg" height = "100" width = "400" />
-   
-
-
-
+ 
 # APP GOBARBER
 - App created with NodeJs
+<img src="s3://barberimages2/barber/NodeJS.png" height = "200" width = "200" />
 
 The main learning  in this app was to manipulated routes, how they work in the right way, in addition to creating MVC design patterns, learn about using `nunjucks` to render views.
 
