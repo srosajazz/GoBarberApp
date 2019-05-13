@@ -1,12 +1,9 @@
    <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/logo.svg" height = "150"/>
    
- 
+  <img src="https://s3.amazonaws.com/barberimages2/barber/NodeJS.png" height = "80" width = "80" />
 # APP GOBARBER
 - App created with NodeJs
-  <img src="https://s3.amazonaws.com/barberimages2/barber/NodeJS.png" height = "50" width = "50" />
-
-
-
+ 
 The main learning  in this app was to manipulated routes, how they work in the right way, in addition to creating MVC design patterns, learn about using `nunjucks` to render views.
 
 In addition, the process of authentication and user creation was created step by step through the use of Sequelize for BD, configured in a PostgresSQL database, using a Docker virtual machine to do so.
