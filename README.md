@@ -23,7 +23,7 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   
   ### SCREENSHOTS:
   - Initial View page
-  <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/1.png" height = "400" width = "400" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/Screen+Shot+2019-05-11+at+10.30.12+PM.png" height = "400" width = "400" />
 
   -  Registration
   <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/Screenshot_8.png" height = "500" width = "400" />
@@ -39,7 +39,7 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
    - Principal Dashboard 
    <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/Screenshot_9.png" height = "400" width = "400" /> 
    
-   - lient of the day
+   - Client of the day
    <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/Screenshot_6.png" height = "400" width = "400" /> 
     
     
