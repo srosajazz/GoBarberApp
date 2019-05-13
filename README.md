@@ -22,13 +22,13 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   - After, run `yarn start`.
   
   ### SCREENSHOTS:
-  - Initial View page
+  - Login View page
   <img src="https://s3.amazonaws.com/barberimages2/barber/login-1.png" height = "400" width = "400" />
 
-  -  Registration
+  -  Select your prefer barber
   <img src="https://s3.amazonaws.com/barberimages2/barber/choose-barber-2.png" height = "500" width = "400" />
   
-   - View to choose a specific Barber(User)
+   - Book Appointment
   <img src="https://s3.amazonaws.com/barberimages2/barber/appointment-3.png" height = "500" width = "400" />
   
    - Appointments dates and time.
@@ -36,10 +36,10 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   
    #### Screens of the service provider :
    
-   - Principal Dashboard 
+   - Available times slots
    <img src="https://s3.amazonaws.com/barberimages2/barber/time-5.png" height = "400" width = "400" /> 
    
-   - Client of the day
+   - Create a account
    <img src="https://s3.amazonaws.com/barberimages2/barber/create-account-6.png" height = "400" width = "400" /> 
     
     
