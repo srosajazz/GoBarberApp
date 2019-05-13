@@ -3,7 +3,7 @@
  
 # APP GOBARBER
 - App created with NodeJs
-  <img src="https://s3.amazonaws.com/barberimages2/barber/NodeJS.png" height = "200" width = "200" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/NodeJS.png" height = "50" width = "50" />
 
 
 
