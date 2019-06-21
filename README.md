@@ -6,7 +6,7 @@
  
 The main learning  in this app was to manipulated routes, how they work in the right way, in addition to creating MVC design patterns, learn about using `nunjucks` to render views.
 
-In addition, the process of authentication and user creation was created step by step through the use of Sequelize for BD, configured in a PostgresSQL database, using a Docker virtual machine to do so.
+In addition, the process of authentication and user creation was created step by step through the use of Sequelize for DB, configured in a PostgresSQL database, using a Docker virtual machine to do so.
 
   
  ### HOW TO USE:
