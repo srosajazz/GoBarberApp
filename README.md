@@ -17,7 +17,6 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   - Create an account on the docker site, and once installed, log in to that account.
   - Do the DB installation, by the terminal using `docker run --name database -p 5432:5432 -d -t kartoza/postgis`.
   - Create a database with the name "gobarber".
-  - No projeto usar `yarn install` para instalar todas as dependências do projeto.
   - Also, `npx sequelize db:migrate` to create the database.
   - After, run `yarn start`.
   
