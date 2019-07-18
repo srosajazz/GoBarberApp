@@ -33,7 +33,7 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
    - Appointments dates and time.
    <img src="https://s3.amazonaws.com/barberimages2/barber/date-4.png" height = "600" width = "400" />
   
-   #### Screens of the service provider :
+   #### Screens of the service provider:
    
    - Available times slots
    <img src="https://s3.amazonaws.com/barberimages2/barber/time-5.png" height = "400" width = "400" /> 
