@@ -22,24 +22,24 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   
   ### SCREENSHOTS:
   - Login View page
-  <img src="https://s3.amazonaws.com/barberimages2/barber/login-1.png" height = "400" width = "400" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/login-1.png" height = "600" width = "800" />
 
   -  Select your prefer barber
-  <img src="https://s3.amazonaws.com/barberimages2/barber/choose-barber-2.png" height = "500" width = "400" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/choose-barber-2.png" height = "600" width = "800" />
   
    - Book Appointment
-  <img src="https://s3.amazonaws.com/barberimages2/barber/appointment-3.png" height = "500" width = "400" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/appointment-3.png" height = "600" width = "800" />
   
    - Appointments dates and time.
-   <img src="https://s3.amazonaws.com/barberimages2/barber/date-4.png" height = "600" width = "400" />
+   <img src="https://s3.amazonaws.com/barberimages2/barber/date-4.png" height = "600" width = "800" />
   
    #### Screens of the service provider:
    
    - Available times slots
-   <img src="https://s3.amazonaws.com/barberimages2/barber/time-5.png" height = "400" width = "400" /> 
+   <img src="https://s3.amazonaws.com/barberimages2/barber/time-5.png" height = "600" width = "800" /> 
    
    - Create a account
-   <img src="https://s3.amazonaws.com/barberimages2/barber/create-account-6.png" height = "400" width = "400" /> 
+   <img src="https://s3.amazonaws.com/barberimages2/barber/create-account-6.png" height = "600" width = "800" /> 
     
     
     
