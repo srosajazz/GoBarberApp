@@ -22,10 +22,10 @@ It is HIGHLY RECOMMENDED USE OF YARN and some linux terminal, in case you are wi
   
   ### SCREENSHOTS:
   - Login View page
-  <img src="https://s3.amazonaws.com/barberimages2/barber/login-1.png" height = "600" width = "800" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/login-1.png" height = "700" width = "900" />
 
   -  Select your prefer barber
-  <img src="https://s3.amazonaws.com/barberimages2/barber/choose-barber-2.png" height = "600" width = "800" />
+  <img src="https://s3.amazonaws.com/barberimages2/barber/choose-barber-2.png" height = "700" width = "900" />
   
    - Book Appointment
   <img src="https://s3.amazonaws.com/barberimages2/barber/appointment-3.png" height = "600" width = "800" />
